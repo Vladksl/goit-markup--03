@@ -415,18 +415,40 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--link-hover-color);
 }
 
-.portf-title {
-    display: none;
+.portf-sec{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
+.portf-title {
+font-size: 0;
 }
 
 
+.link.portfolio{
+    color: var(--link-hover-color)
+}
+
+.buttons-port.list{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.buttons-port .item + .item{
+    margin-left: 8px;
+}
 
 .button-portf{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+    height: 38px;
     background: #F5F4FA;
     border: none;
-    font-family: inherit;
     border-radius: 4px;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -435,11 +457,29 @@ color: rgba(255, 255, 255, 0.6);
     cursor: pointer;
 }
 
+
+
+
+
 .button-portf:hover,
 .button-portf:focus{
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: #ffffff;
+}
+
+.portfolio-list .item{
+    width: 370px;
+    margin: 15px;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.portf-card{
+display: block;
 }
 
 .portf-list-title{
@@ -455,4 +495,16 @@ color: rgba(255, 255, 255, 0.6);
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary-text-color)
+}
+
+.card-border{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;;
+    border-bottom: 1px solid #EEEEEE;;
+
 }
